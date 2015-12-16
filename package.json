@@ -1,0 +1,32 @@
+{
+  "name": "average-colour",
+  "version": "0.0.1",
+  "description": "Calculate the average colour out of an array of colours",
+  "license": "MIT",
+  "repository": "ghpabs/average-colour",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "average",
+    "colour",
+    "color",
+    "hex"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.5.0",
+    "xo": "^0.11.2"
+  },
+  "xo": {
+    "ignores": [
+      "test.js"
+    ]
+  }
+}
